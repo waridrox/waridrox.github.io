@@ -4,7 +4,7 @@
 
 theme = "congo"
 
-baseURL = "https://waridrox.github.io"
+baseURL = "https://waridrox.netlify.app"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
