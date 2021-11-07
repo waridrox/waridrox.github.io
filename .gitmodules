@@ -1,0 +1,7 @@
+[submodule "zendibbler/themes/gokarna"]
+	path = zendibbler/themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "zendibbler/themes/congo"]
+	path = zendibbler/themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable

@@ -1,0 +1,30 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+theme = "congo"
+
+baseURL = "https://waridrox.github.io"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Mohammad Warid"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+# publishDir = "./docs"
+
+[author]
+  name = "Mohammad Warid"
+  image = "img/avatar.jpeg"
+  quals = "Clean code enthusiast"
+  links = [
+     { email = "mailto:mohdwarid4@gmail.com" },
+     { github = "https://github.com/waridrox" },
+  #   { gitlab = "https://gitlab.com/username" },
+    { linkedin = "https://linkedin.com/in/waridrox" },
+    { medium = "https://medium.com/@waridrox" },
+    { twitter = "https://twitter.com/waridrox" }
+  ]
