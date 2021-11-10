@@ -11,14 +11,14 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Resume"
+  URL = "https://drive.google.com/file/d/1fHDCEbOA3hJjNJw-rrNCRekVNrLCe8m4/view?usp=sharing"
   weight = 10
 
-# [[main]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
 
 [[main]]
   name = "Tags"
