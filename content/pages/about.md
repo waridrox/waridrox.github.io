@@ -45,6 +45,16 @@ ___
 
 ## Projects
 
+[**De Storage**](https://github.com/waridrox/dapp-dropbox-clone)
+_Built with React.js, Solidity_
+
+Built a decentralised file uploading dropbox clone that hosts files on IPFS using Ethereum smart contracts.
+___
+[**Space Launch Scheduler**](https://github.com/waridrox/space-launches)
+_Built with Node.js, React.js, MongoDB, Docker, AWS_
+
+A space launch scheduler deployed on AWS EC2 instance, utilising SpaceX API and kepler exoplanet data from a CSV file, thereby persisting the data on MongoDB Atlas.
+___
 [**Password Manager**](https://github.com/waridrox/password-manager)
 _Built with React.js, MySQL, Node.js_
 
