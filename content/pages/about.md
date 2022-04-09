@@ -91,6 +91,6 @@ ___
 ## Education
 
 **Bachelors in Science**
-_Environmental Engineering with minors in Computer Science Engineering_
+_Computer Science Engineering_
 
 2019 - 2023 (Expected) **~** Delhi Technological University
