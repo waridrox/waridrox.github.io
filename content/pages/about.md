@@ -19,6 +19,27 @@ ___
 ## Experience
 
 **Google Summer of Code**
+[_Student Developer at CERN-HSF organisation_](https://summerofcode.withgoogle.com/programs/2022/projects/jaQG1EJu)
+
+**June 2022 – September 2022** **~** _Remote_
+
+- Developing an Etherpad plugin to support sync and share apps across the Science Mesh European Union platform leveraging on the WOPI server bridge extensions. Implemented work will impact about 400K users over the platform.
+- **Tech stack** - JavaScript, Node.js, Linux, Docker, Python
+
+___
+
+**Summer of Bitcoin**
+[_Software engineering intern at Bcoin-org_](https://www.summerofbitcoin.org/project-ideas-details?recordId=recwXsTrf5L61a9Xl)
+
+**May 2022 – August 2022** **~** _Remote_
+
+- Updating networking protocol implementations utilising pruned nodes and compact blocks to modern Bitcoin protocol standards
+(BIP152 & BIP159) in the bcoin library. Implementing end-to-end tests to increase test coverage across the bcoin library.
+- **Tech stack** - JavaScript, Node.js, Mocha, Python, C++
+
+___
+
+**Google Summer of Code**
 [_Student Developer at Public Lab organisation_](https://summerofcode.withgoogle.com/archive/2021/projects/5141195142987776/)
 
 **May 2021 – August 2021** **~** _Remote_
