@@ -12,7 +12,8 @@
 
 [[main]]
   name = "Resume"
-  URL = "https://d20gxk19q2gyuc.cloudfront.net/1663605529657resume_updated.pdf"
+  URL = "https://drive.google.com/file/d/1ooSpPjGNaU0VN-aTbJJ9QMpawiyFPqQc/view?usp=share_link"
+  # URL = "https://d20gxk19q2gyuc.cloudfront.net/1663605529657resume_updated.pdf"
   weight = 10
 
 [[main]]

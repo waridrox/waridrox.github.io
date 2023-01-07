@@ -18,6 +18,16 @@ ___
 
 ## Experience
 
+**Student Researcher**
+[_Research intern at the University of Auckland_]()
+
+**December 2022 – February 2023** **~** _Auckland_
+
+- Investigating five air quality studies in New Zealand rural towns to develop transfer learning model for the data stream by reusing a pre-trained air pollution inference model from a town as the starting point for an air pollution inference model of the whole town.
+- **Tech stack** - Python, Pytorch
+
+___
+
 **Google Summer of Code**
 [_Student Developer at CERN-HSF organisation_](https://summerofcode.withgoogle.com/programs/2022/projects/jaQG1EJu)
 
