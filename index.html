@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mohammad Warid" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mohammad Warid">Mohammad Warid</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mohdwarid4@gmail.com" class="contact-link">mohdwarid4@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919911762049" class="contact-link">+91 9911762049</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Graduation Year</p>
+
+              <time datetime="2023">2023</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/warid.mohd" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/waridrox" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/waridrox" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Generative AI Software Engineer, I design and ship scalable, production-ready AI solutions—from building multi-agent LLM orchestration pipelines using Streamlit app leveraging LangFlow and Vector databases, to contributing core features in the open-source libraries for data-science testing and visualization. I use Python, PyTorch, FastAPI, Docker/Kubernetes, and CI/CD best practices to ensure robust, maintainable code that powers real-world applications.
+          </p>
+        
+          <p>
+            With a strong foundation as a Machine Learning Engineer, I’ve architected end-to-end ML workflows on both HPC clusters (SLURM) and cloud platforms like Amazon Web Services. I'm currently working on designing sparse autoencoders for particle-collision event reconstruction, and building microservices using Django, Spring Boot, and front-end frameworks like Vue.js. I thrive on turning complex research ideas into streamlined, data-driven products.
+          </p>
+        
+          <p>
+            As a Full-Stack Engineer, I’ve led the development of responsive, user-centric applications from front-end to back-end. I have built dynamic user interfaces like React.js and Tailwind CSS, design and implement REST & GraphQL APIs with Node.js/Express and Spring Boot, and manage both relational (PostgreSQL, MySQL) and NoSQL (MongoDB, Redis) databases. I have containerized services with Docker, orchestrated them on Kubernetes, and automated deployments via GitHub Actions and OpenShift, securing web experiences end to end.
+          </p>
+        </section>
+        
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I currently vibe with</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applied Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Currently working on applied machine learning projects involving particle physics data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Engineering</h4>
+
+                <p class="service-item-text">
+                  Keeping up with the latest trends in web development and building scalable and maintainable web applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-hiking.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Conquering mountain peaks</h4>
+
+                <p class="service-item-text">
+                  Whenever I get a chance, I go on a hike to conquer a mountain peak, and capture the beauty of nature.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Besides work, I invest my time capturing nature and life at high-quality pixels.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Organizations that I've worked with</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-7-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Delhi Technological University</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Pursued a bachelors in Environmental Science and Engineering with a specialization in Computer Science Engineering Intelligence from Delhi Technological University, from one of the prestigious institutions in India established in 1941.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <!-- Current Roles -->
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Machine Learning Researcher (Part-time), University of Alabama</h4>
+              <span>April 2025 – Present</span>
+              <p class="timeline-text">
+                Designing and implementing a scalable sparse autoencoder pipeline for classifying and reconstructing particle collision events using minimally processed detector image data.  
+                <strong>Tech stack: Python, PyTorch, NumPy, MLflow, HPC, SLURM </strong>
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Open-Source Software Engineer (Part-time), Probabl ai</h4>
+              <span>April 2025 – Present</span>
+              <p class="timeline-text">
+                Contributing to Probabl.ai’s “skore” project to enhance data-science testing and visualization capabilities.  
+                <strong>Tech stack:</strong> Python, Pandas, NumPy, scikit-learn, pytest
+              </p>
+            </li>
+        
+            <!-- Full-time Roles -->
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Analytics & DevOps Engineer, Nordblock</h4>
+              <span>September 2024 – February 2025</span>
+              <p class="timeline-text">
+                Deployed monitoring with Prometheus, Grafana & InfluxDB for carbon-neutral Bitcoin mining heat centers; built Spark & Kafka analytics pipelines; orchestrated ETL with Apache Airflow.  
+                <strong>Tech stack:</strong> Kubernetes, Docker, AWS, Grafana, ElasticSearch, Airflow
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Software Engineer, CERN (European Organization for Nuclear Research)</h4>
+              <span>June 2023 – July 2024</span>
+              <p class="timeline-text">
+                Architected global CMS-experiment tools at CERN; built microservices (Django, Spring Boot) and web apps (Vue.js); implemented CI/CD on OpenShift.  
+                <strong>Tech stack:</strong> Python, Django, Java (Spring), Vue.js, GitLab CI/CD
+              </p>
+            </li>
+        
+            <!-- Internships -->
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">DeFi Quant Engineering Intern, Roni Analytics</h4>
+              <span>February 2023 – May 2023</span>
+              <p class="timeline-text">
+                Co-developed a crypto analysis platform for DeFi markets, integrating real-time Ethereum Layer 1 liquidity data via Backtrader; implemented multi-timeframe TWAP and arbitrage algorithms.  
+                <strong>Tech stack:</strong> Python, Backtrader, Solidity, Apache Spark, Hadoop
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Intern, CERN-HSF (Google Summer of Code)</h4>
+              <span>May 2022 – August 2022</span>
+              <p class="timeline-text">
+                Developed and published an Etherpad plugin via NPM to enable collaborative file-sharing across the CS3 Science Mesh platform using Golang REST APIs.  
+                <strong>Tech stack:</strong> JavaScript, Node.js, Golang, Docker
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Intern, bcoin (Summer of Bitcoin)</h4>
+              <span>May 2022 – August 2022</span>
+              <p class="timeline-text">
+                Adapted Bitcoin-Core compact block relay (BIP152) in the bcoin library; implemented end-to-end tests to raise coverage by 40%.  
+                <strong>Tech stack:</strong> JavaScript, Node.js, C++, Mocha
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Intern, Public Lab (Google Summer of Code)</h4>
+              <span>May 2021 – August 2021</span>
+              <p class="timeline-text">
+                Updated a spectrometry data-analysis library for cross-browser WebRTC camera switching; added mapping integrations and boosted test coverage by 30%.  
+                <strong>Tech stack:</strong> JavaScript, Ruby on Rails, WebRTC, Leaflet.js, Cypress
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Intern, moja Global</h4>
+              <span>June 2021 – September 2021</span>
+              <p class="timeline-text">
+                Prototyped a Vue.js dashboard interfacing with Flask APIs; containerized via Docker and managed infra with Terraform on GCP.  
+                <strong>Tech stack:</strong> Vue.js, Python, Flask, Docker, Terraform, GCP, AWS, Azure
+              </p>
+            </li>
+        
+          </ol>
+        
+        </section>
+        
+        
+        <section class="skill">
+        
+          <h3 class="h3 skills-title">My skills</h3>
+        
+          <ul class="skills-list content-card">
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web & API Development</h5>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps & Cloud</h5>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics</h5>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+        
+          </ul>
+        
+        </section>
+      </article>
+        
+
+
+
+
+
+<!--
+  - #PORTFOLIO
+-->
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <!-- filter buttons -->
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Web development</button></li>
+      <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+    </ul>
+
+    <!-- select dropdown for mobile -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-select-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Web development</button></li>
+        <li class="select-item"><button data-select-item>Machine Learning</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+      </ul>
+    </div>
+
+    <!-- project grid -->
+    <ul class="project-list">
+
+      <!-- Web Development -->
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/waridrox/rapid-polls" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/rapid-polls.png" alt="Rapid Polls" loading="lazy">
+          </figure>
+          <h3 class="project-title">Rapid Polls</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/waridrox/password-manager-django" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/django-react.png" alt="Django Password Manager" loading="lazy">
+          </figure>
+          <h3 class="project-title">Django Password Manager</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/waridrox/next-todo" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/next-todo.png" alt="Next.js Todo App" loading="lazy">
+          </figure>
+          <h3 class="project-title">Next-Todo</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <!-- Machine Learning Projects -->
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/waridrox/multi-agent-workout-app" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/multi-agent-workout-app.png"
+                 alt="Multi-Agent AI Workout App"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Multi-Agent AI Workout App</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/waridrox/aqi-prediction" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/aqi-prediction.png"
+                 alt="Air Quality Index Predictor – COVID-19 Analysis"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">AQI Predictor & COVID-19 Analysis</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/waridrox/customer-satisfaction" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/customer-satisfaction.png"
+                 alt="Customer Satisfaction Prediction Pipeline"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Customer Satisfaction Prediction Pipeline</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/fractaloid007/kindey-CNN" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/kidney-cnn.png"
+              alt="Kidney CNNs"
+              loading="lazy"
+            >
+          </figure>
+          <h3 class="project-title">Kidney CNNs</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/fractaloid007/llm-rag-workshop" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/llm-rag-workshop.png"
+              alt="LLM RAG Workshop"
+              loading="lazy"
+            >
+          </figure>
+          <h3 class="project-title">LLM RAG Workshop</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <!-- Applications -->
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/waridrox/weather-etl-airflow" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/weather-etl-airflow.png"
+                 alt="Scalable ETL Pipelines for Weather Data"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Scalable ETL Pipelines for Weather Data</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/waridrox/dapp-dropbox-clone" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/dapp-dropbox-clone.png" alt="DApp-Dropbox Clone" loading="lazy">
+          </figure>
+          <h3 class="project-title">DApp-Dropbox Clone</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/waridrox/realtime-voting-system" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/realtime-voting-system.png"
+                 alt="Real-time Election Voting System"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Real-time Election Voting System</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/waridrox/downloader" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/downloader.png"
+                 alt="Concurrent File Downloader"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Concurrent File Downloader</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/waridrox/space-launches" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/space-launches.png"
+                 alt="Space Launch Scheduler"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Space Launch Scheduler</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/waridrox/etl-databricks" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/etl-databricks.png"
+                 alt="Scalable ETL for Apple Products Analysis"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">ETL Pipelines for Apple Products Analysis</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/fractaloid007/food-order-kafka" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/food-order-kafka.png"
+              alt="Food Order Kafka"
+              loading="lazy"
+            >
+          </figure>
+          <h3 class="project-title">Food Order Kafka</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+      
+    </ul>
+
+  </section>
+
+</article>
+
+    <!--
+  - #BLOG
+-->
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <!-- GSoC 2022 Final Project Report -->
+      <li class="blog-post-item">
+        <a href="https://medium.com/@waridrox/gsoc-2022-final-project-report-c206883936fa" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-gsoc22-final.png"
+                 alt="GSoC 2022 at CERN-HSF: Final Project Report"
+                 loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">GSoC 2022</p>
+              <span class="dot"></span>
+              <time datetime="2022-09-12">Sep 12, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">GSoC 2022 at CERN-HSF: Final Project Report</h3>
+
+            <p class="blog-text">
+              My final report on implementing the Etherpad plugin for ScienceMesh during GSoC 2022 at CERN-HSF.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <!-- GSoC 2022 Experience Part 1 -->
+      <li class="blog-post-item">
+        <a href="https://medium.com/@waridrox/gsoc-2022-at-cern-hsf-experience-9427429f9bfd" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-gsoc22-exp.png"
+                 alt="GSoC 2022 at CERN-HSF: Experience (Part 1)"
+                 loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">GSoC 2022</p>
+              <span class="dot"></span>
+              <time datetime="2022-07-15">Jul 15, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">GSoC 2022 at CERN-HSF: Experience (Part 1)</h3>
+
+            <p class="blog-text">
+              Reflecting on my community bonding and initial coding period while building the Etherpad plugin.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <!-- LFX 2021 at Moja Global -->
+      <li class="blog-post-item">
+        <a href="https://medium.com/@waridrox/lfx-2021-experience-at-moja-global-4308b584795a" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-lfx21-moja.png"
+                 alt="LFX 2021 experience at Moja Global"
+                 loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">LFX 2021</p>
+              <span class="dot"></span>
+              <time datetime="2022-07-15">Jul 15, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">LFX 2021 experience at Moja Global</h3>
+
+            <p class="blog-text">
+              How I built a Vue.js GUI for FLINT during the Linux Foundation Mentorship in 2021.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <!-- Compact Blocks in bcoin -->
+      <li class="blog-post-item">
+        <a href="https://medium.com/@waridrox/compact-blocks-in-bcoin-part-1-838dcb71ed72" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-bcoin-compact.png"
+                 alt="Compact blocks in bcoin"
+                 loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Blockchain</p>
+              <span class="dot"></span>
+              <time datetime="2022-07-08">Jul 8, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Compact blocks in bcoin</h3>
+
+            <p class="blog-text">
+              Improving BIP152 protocol support and peer‐to‐peer tests in the bcoin Node.js library.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <!-- GSoC 2021 Final Report -->
+      <li class="blog-post-item">
+        <a href="https://medium.com/@waridrox/gsoc-2021-at-public-lab-final-report-7347b7edf466" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-gsoc21-publiclab.png"
+                 alt="GSoC 2021 at Public Lab: Final Report"
+                 loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">GSoC 2021</p>
+              <span class="dot"></span>
+              <time datetime="2021-08-23">Aug 23, 2021</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">GSoC 2021 at Public Lab: Final Report</h3>
+
+            <p class="blog-text">
+              Integrating SW.js with Ruby on Rails and enhancing the spectral-workbench.js capture interface.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form (Please avoid spam)</h3>
+          <!-- add id and data attributes for emailjs -->
+          <form
+            id="contact-form"
+            action="#"
+            class="form"
+            data-form
+            data-service-id="service_czifj0a"
+            data-template-id="template_7r60z7l"
+            data-user-id="Jff11J6Q6dqgMUisp"
+          >
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="from_name"
+                class="form-input"
+                placeholder="Full name (can't be empty)"
+                required
+                data-form-input
+              />
+              <input
+                type="email"
+                name="from_email"
+                class="form-input"
+                placeholder="Email address (can't be invalid)"
+                required
+                data-form-input
+              />
+            </div>
+            <textarea
+              name="message"
+              class="form-input"
+              placeholder="Your Message (can't be empty)"
+              required
+              data-form-input
+            ></textarea>
+            <button
+              class="form-btn"
+              type="submit"
+              data-form-btn
+              disabled
+            >
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+
+</html>
