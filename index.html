@@ -208,20 +208,16 @@
           <h2 class="h2 article-title">About me</h2>
         </header>
 
+
+<!--          -->
         <section class="about-text">
-          <p>
-            As a Data-Centric AI Engineer, I architect and ship end-to-end data pipelines and machine learning systems that power scalable, production-grade AI applications. I design robust ETL workflows using Spark, Dask, and Apache Airflow; build high-throughput ingestion layers on AWS EMR, Redshift, Snowflake and Databricks; and optimize data stores with Python multithreading, file-splitting and S3 external stages. Leveraging infrastructure as code (Terraform, CloudFormation), containerization (Docker/Kubernetes) and CI/CD (GitHub Actions, GitLab CI), I ensure reliable, maintainable data platforms that serve real-time analytics and batch ML workloads.
-          </p>
-        
-          <p>
-            As a Full-Stack AI Engineer, I translate complex ML models into seamless user experiences—developing interactive front-ends in React.js and Tailwind CSS, and implementing REST/GraphQL APIs with FastAPI, Node.js/Express or Spring Boot. I integrate vector databases (FAISS, Pinecone) and RAG workflows via LangChain to build intelligent document-retrieval interfaces, and orchestrate multi-agent LLM pipelines with Streamlit and LangFlow. My end-to-end approach spans data modeling and feature stores through inference services and scalable deployment on Kubernetes, backed by observability (Prometheus, Grafana, ELK) and automated retraining loops.
-          </p>
-        
-          <p>
-            With a foundation in both software engineering and MLOps, I thrive at the intersection of data engineering and AI product development—turning raw data into high-impact insights, and research prototypes into user-facing applications that drive measurable business value.
-          </p>
+            <p>As a Full-Stack Software Engineer, I design and develop end-to-end web applications that deliver seamless user experiences and robust backend functionality. I build responsive, interactive frontends using React.js, Vue.js, and modern JavaScript frameworks, while architecting scalable backend services with Node.js, Django, Flask, and Spring Boot. My expertise spans the complete development lifecycle, from wireframing and prototyping with Figma to database design with PostgreSQL, MongoDB, and Redis, ensuring optimal performance and maintainability across the entire technology stack.</p>
+    
+            <p>As a versatile Full-Stack Developer, I excel at translating complex business requirements into intuitive, production-ready applications through systematic design and development processes. I create detailed control flow diagrams using Lucid Charts to map out system architecture and user workflows, then develop RESTful APIs and microservices that power dynamic user interfaces. My approach includes implementing real-time features using WebSockets and modern state management, optimizing application performance through efficient database queries and caching strategies, and maintaining high code quality standards through comprehensive testing and CI/CD pipelines.</p>
+    
+            <p>With a foundation spanning design thinking, frontend innovation, and backend engineering, I thrive at building complete full-stack solutions that scale—from initial concept sketches and interactive prototypes to deploying containerized services on cloud platforms. My technical versatility combined with strong visual design and system architecture skills enables me to deliver end-to-end software solutions that drive user engagement and business value.</p>
         </section>
-        
+<!--  -->
 
         <!--
           - service
@@ -301,6 +297,48 @@
           </ul>
 
         </section>
+
+
+                <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Warid was hired to create a corporate identity. We were very pleased with the work done. He has a
+                  lot of experienc and is very concerned about the needs of client.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
 
 
         <!--
@@ -424,73 +462,58 @@
             <h3 class="h3">Experience</h3>
           </div>
         
-          <ol class="timeline-list">
+         <ol class="timeline-list">
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Data Engineer, Upwork</h4>
-              <span>March 2025 – Present</span>
-              <p class="timeline-text">
-                Built a flood prediction product using geospatial (point-in-polygon) operations with Spark, Java, Geotrellis, and AWS EMR Step Functions, boosting CPU utilization by 32%. Developed a scalable address interpolation algorithm with Python Dask and AWS Redshift, increasing address
-                coverage by 44% through an automated two-pointer approach. Designed a centralized data repository and ingestion framework for 40 data products into Snowflake and
-                Databricks using AWS Step Functions. Optimized Snowflake data uploads with Python multithreading, file splitting, and compression via AWS S3
-                external stages, enhancing speed by 74% and eliminating legacy cloud EMR costs.     
-                <br>
-                <strong>Tech stack:</strong> Spark, Java, Geotrellis, AWS EMR, Python Dask, AWS Redshift, Snowflake, Databricks, AWS
-              </p>
-            </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Freelance Software Engineer, Upwork</h4>
+            <span>March 2025 – Present</span>
+            <p class="timeline-text">
+              
+              Developing a cross-platform Voice-to-Text app with Electron & React.js, featuring a global push-to-talk shortcut and Whisper AI-based transcription functionality. Integrating Stripe for payments in a freemium model setting.
+              <br>
+              <strong>Tech stack:</strong> Node.js, Express, Electron.js, TypeScript, React.js, Whisper AI, OpenAI LLMs, Stripe
+            </p>
+          </li>
         
-            <!-- Current Roles -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Machine Learning Researcher, University of Alabama</h4>
-              <span>April 2025 – Present</span>
-              <p class="timeline-text">
-                Designing and implementing a scalable sparse autoencoder pipeline for classifying and reconstructing particle collision events using minimally processed detector image data. Supervisor - Dr. Sergei V. Gleyzer
-                <br>
-                <strong>Tech stack:</strong> Python, PyTorch, NumPy, MLflow, HPC, SLURM
-              </p>
-            </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Machine Learning Researcher, University of Alabama</h4>
+            <span>April 2025 – Present</span>
+            <p class="timeline-text">
+              Designing and implementing a scalable MLOps sparse autoencoder pipeline for classifying and reconstructing particle collision events using minimally processed detector image data. Working under the guidance of Dr. Sergei V. Gleyzer.
+              <br>
+              <strong>Tech stack:</strong> Python, PyTorch, NumPy, Git, MLFlow, HPC, SLURM
+            </p>
+          </li>
         
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Open-Source Software Engineer, Probabl ai</h4>
-              <span>April 2025 – July 2025</span>
-              <p class="timeline-text">
-                Contributing to Probabl.ai’s “skore” project to enhance data-science testing and visualization capabilities.  
-                <br>
-                <strong>Tech stack:</strong> Python, Pandas, NumPy, scikit-learn, pytest
-              </p>
-            </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Data Analytics & DevOps Engineer, Nordblock.fi</h4>
+            <span>September 2024 – February 2025</span>
+            <p class="timeline-text">
+              Deployed a monitoring system with Prometheus, Grafana, and InfluxDB to track carbon-neutral bitcoin mining data heat centers in Nordic regions. Aggregated logs using ElasticSearch and Kibana from AWS S3 for rapid debugging and performance analysis of energy-to-heat conversion processes. Built scalable analytics pipelines with Apache Spark and Kafka, leveraging Docker and Kubernetes. Orchestrated ETL workflows with Apache Airflow to ensure timely and reliable data processing.
+              <br>
+              <strong>Tech stack:</strong> Kubernetes, Docker, Prometheus, Grafana, InfluxDB, ElasticSearch, Kibana, Apache Spark, Kafka, Airflow, Linux, Python, Shell scripting, Git, Amazon Web Services (AWS)
+            </p>
+          </li>
         
-            <!-- Full-time Roles -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Data Analytics & DevOps Engineer, Nordblock</h4>
-              <span>September 2024 – February 2025</span>
-              <p class="timeline-text">
-                Deployed monitoring infrastructure with Prometheus, Grafana, and InfluxDB for carbon-neutral bitcoin mining operations across Nordic regions, implementing LSTM autoencoder anomaly detection for power consumption patterns, reducing equipment downtime by 25%. Built ELK stack pipeline ingesting logs from AWS S3 into ElasticSearch with Kibana visualization for energy-to-heat conversion analysis and rapid troubleshooting. Orchestrated scalable analytics workflows using Apache Spark Structured Streaming to process Kafka data streams, with Airflow managing ETL job scheduling and automated model retraining pipelines via Kubernetes.  
-                <br>
-                <strong>Tech stack:</strong> Python, Linux, Docker, Kubernetes, Prometheus, Grafana, InfluxDB, ELK Stack, Apache Spark, Kafka, Airflow, AWS
-              </p>
-            </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Software Engineer, CERN (European Organization for Nuclear Research)</h4>
+            <span>June 2023 – July 2024</span>
+            <p class="timeline-text">
+              Architected and maintained systems for a 6K-user global CMS experiment collaboration, optimizing publication, personnel, and institute management for reliability and scalability. Developed iCMS-teams for new user registration and iCMS-statistics for institute analysis, implementing visualizations for interactive analytics. Built scalable microservices and web applications using Python (Django, Flask API), Java (Spring Boot), and Vue.js with comprehensive CI/CD pipelines. Automated database synchronization and resource optimization using CRON jobs, Bash, and Python scripts.
+              <br>
+              <strong>Tech stack:</strong> Python, Django, Flask, Java (Spring Boot), Javascript, Typescript, Vue.js, Databases (PostgreSQL, MariaDB, OracleDB), Pytest, Redis, Linux, Docker, Bash, Git, GitLab CI/CD, Helm, OpenShift
+            </p>
+          </li>
         
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Technical Student, CERN (European Organization for Nuclear Research)</h4>
-              <span>June 2023 – July 2024</span>
-              <p class="timeline-text">
-                Architected and maintained systems for a 6K-user global CMS experiment collaboration, optimizing publication, personnel, and institute management for reliability and scalability. Delivered on-demand user support and enhanced the iCMS-web ecosystem to streamline global workflows. Developed iCMS-teams, a web service to register new collaborators within the CMS experiment. Contributed to iCMS-statistics providing configurable analytics on CMS collaboration via tables, plots, and exportable data. Built microservices and web apps using Python (Django, Flask API), Java (Spring Boot), and Vue.js. Automated periodic database synchronization with CRON jobs using Bash and Python scripts. Optimized resource allocation for EOS storage and implemented CI/CD pipelines with GitLab and OpenShift for seamless deployments. Witnessed server migrations from CentOS 7 to AlmaLinux 9 post end-of-life.
-                <br>
-                <strong>Tech stack:</strong> Python, Django, Flask, Java (Spring Boot), Javascript, Typescript, Vue.js, Databases (PostgreSQL, MariaDB, OracleDB), Linux, Docker, Bash, Shell scripting, Git, GitLab CI/CD, Helm, OpenShift
-              </p>
-            </li>
-        
-            <!-- Internships -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Data Engineering Intern, Roni Analytics</h4>
-              <span>February 2023 – May 2023</span>
-              <p class="timeline-text">
-                Contributed as part of the co-founding team of a startup, developing a crypto analysis tool incorporating real-time metrics from Ethereum-based layer 1 blockchains. Designed and optimized Spark SQL queries on Hadoop HDFS systems to process large-scale blockchain datasets for efficient analysis and backtesting workflows. Worked on system monitoring and backend integration, leveraging Docker and Kubernetes.
-                <br>
-                <strong>Tech stack:</strong> Python, Docker, Apache Spark, Hadoop HDFS, Docker, Kubernetes
-              </p>
-            </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Software Engineering Intern, Roni Analytics</h4>
+            <span>February 2023 – May 2023</span>
+            <p class="timeline-text">
+              Contributed as part of the co-founding team of a startup, developing a crypto analysis tool incorporating real-time metrics from Ethereum-based layer 1 blockchains. Designed and optimized Spark SQL queries on Hadoop HDFS systems to process large-scale blockchain datasets for efficient analysis and backtesting workflows. Prototyped an interactive analytics dashboard using Chart.js and a Node.js API, then containerized the application with Docker and orchestrated it on Kubernetes.
+              <br>
+              <strong>Tech stack:</strong> Python, React.js, Node.js, Apache Spark, Hadoop HDFS, Docker, Kubernetes
+            </p>
+          </li>
         
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Software Engineering Intern, CERN-HSF (Google Summer of Code)</h4>
@@ -523,7 +546,7 @@
             </li>
         
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Software Engineering Intern, moja Global</h4>
+              <h4 class="h4 timeline-item-title">Software Engineering Intern, moja Global (Linux Foundation Mentorship Program)</h4>
               <span>June 2021 – September 2021</span>
               <p class="timeline-text">
                 Prototyped a Vue.js dashboard interfacing with Flask APIs; containerized via Docker and managed infra with Terraform on GCP.  
@@ -545,7 +568,7 @@
         
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Web & API Development</h5>
+                <h5 class="h5">Full Stack Engineering & API Development</h5>
               </div>
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 95%;"></div>
@@ -554,10 +577,10 @@
         
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">DevOps & Cloud</h5>
+                <h5 class="h5">DevOps & Cloud Engineering</h5>
               </div>
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
+                <div class="skill-progress-fill" style="width: 85%;"></div>
               </div>
             </li>
         
@@ -566,7 +589,7 @@
                 <h5 class="h5">Machine Learning</h5>
               </div>
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
+                <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
             </li>
         
@@ -575,7 +598,7 @@
                 <h5 class="h5">Data Engineering</h5>
               </div>
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
+                <div class="skill-progress-fill" style="width: 50%;"></div>
               </div>
             </li>
         
@@ -650,21 +673,6 @@
         </a>
       </li>
 
-<!--       <li class="project-item active" data-filter-item data-category="applications">
-        <a href="https://github.com/waridrox/etl-databricks" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/etl-databricks.png"
-                 alt="Scalable ETL for Apple Products Analysis"
-                 loading="lazy">
-          </figure>
-          <h3 class="project-title">ETL Pipelines for Apple Products Analysis</h3>
-          <p class="project-category">Applications</p>
-        </a>
-      </li>
- -->
       <!-- Web Development -->
       <li class="project-item active" data-filter-item data-category="web development">
         <a href="https://github.com/waridrox/rapid-polls" target="_blank">
@@ -689,17 +697,48 @@
       </li>
 
       <li class="project-item active" data-filter-item data-category="web development">
-        <a href="https://github.com/waridrox/next-todo" target="_blank">
+        <a href="https://github.com/waridrox/nuxt-notes" target="_blank">
           <figure class="project-img">
             <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/next-todo.png" alt="Next.js Todo App" loading="lazy">
+            <img src="./assets/images/nuxt-todo.png" alt="Nuxt Notes App" loading="lazy">
           </figure>
-          <h3 class="project-title">Next-Todo</h3>
+          <h3 class="project-title">Nuxt Todo</h3>
           <p class="project-category">Web development</p>
         </a>
       </li>
 
       <!-- Machine Learning Projects -->
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/waridrox/mental-healthcare-chatbot" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/mental-healthcare-chatbot-app.png"
+                 alt="Mental Healthcare Chatbot App"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Mental Healthcare Chatbot App</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/waridrox/dna-sequence-classification" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/dna-sequence-app.png"
+                 alt="Cross-Species DNA Sequence Classification using K-mer Analysis"
+                 loading="lazy">
+          </figure>
+          <h3 class="project-title">Cross-Species DNA Sequence Classification using K-mer Analysis</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+      
       <li class="project-item active" data-filter-item data-category="machine learning">
         <a href="https://github.com/waridrox/multi-agent-workout-app" target="_blank">
           <figure class="project-img">
@@ -778,22 +817,6 @@
           <p class="project-category">Machine Learning</p>
         </a>
       </li>
-
-      <!-- Applications -->
-<!--       <li class="project-item active" data-filter-item data-category="applications">
-        <a href="https://github.com/waridrox/weather-etl-airflow" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/weather-etl-airflow.png"
-                 alt="Scalable ETL Pipelines for Weather Data"
-                 loading="lazy">
-          </figure>
-          <h3 class="project-title">Scalable ETL Pipelines for Weather Data</h3>
-          <p class="project-category">Applications</p>
-        </a>
-      </li> -->
 
       <li class="project-item active" data-filter-item data-category="web development">
         <a href="https://github.com/waridrox/dapp-dropbox-clone" target="_blank">
