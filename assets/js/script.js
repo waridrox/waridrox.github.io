@@ -16,43 +16,6 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 
 
 
-// testimonials variables
-const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
-const modalContainer = document.querySelector("[data-modal-container]");
-const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
-const overlay = document.querySelector("[data-overlay]");
-
-// modal variable
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
-
-// modal toggle function
-const testimonialsModalFunc = function () {
-  modalContainer.classList.toggle("active");
-  overlay.classList.toggle("active");
-}
-
-// add click event to all modal items
-for (let i = 0; i < testimonialsItem.length; i++) {
-
-  testimonialsItem[i].addEventListener("click", function () {
-
-    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
-
-    testimonialsModalFunc();
-
-  });
-
-}
-
-// add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
-
 
 
 // custom select variables
@@ -140,23 +103,48 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
+// Utility to activate a page by its data-page value (lowercased string)
+const activatePage = function(targetPageKey) {
+  for (let j = 0; j < pages.length; j++) {
+    if (pages[j].dataset.page === targetPageKey) {
+      pages[j].classList.add("active");
+    } else {
+      pages[j].classList.remove("active");
+    }
+  }
+};
+
+// Utility to activate a nav button by its label (lowercased string)
+const activateNav = function(targetPageKey) {
+  for (let k = 0; k < navigationLinks.length; k++) {
+    const linkKey = navigationLinks[k].innerText.trim().toLowerCase();
+    if (linkKey === targetPageKey) {
+      navigationLinks[k].classList.add("active");
+    } else {
+      navigationLinks[k].classList.remove("active");
+    }
+  }
+};
+
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
+    const selectedValue = this.innerText.trim().toLowerCase();
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
-    }
-
+    activatePage(selectedValue);
+    activateNav(selectedValue);
+    window.scrollTo(0, 0);
   });
 }
+
+// Sync initial navbar active state with the currently active page on load
+(function syncInitialNavToActivePage() {
+  const activeArticle = document.querySelector('[data-page].active');
+  if (activeArticle) {
+    const key = activeArticle.dataset.page;
+    activateNav(key);
+  }
+})();
 // --------------------------------------------------
 //  EmailJS integration for contact form (with debug logs)
 // --------------------------------------------------

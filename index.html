@@ -49,7 +49,7 @@
           <h1 class="name" title="Mohammad Warid">Mohammad Warid</h1>
 
           <p class="title">Software Engineer</p>
-          <p class="title" style="margin-top: 8px;">Machine Learning Researcher</p>
+          <p class="title" style="margin-top: 8px;">Machine Learning Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -75,7 +75,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:mohdwarid4@gmail.com" class="contact-link">mohdwarid4@gmail.com</a>
+              <a href="mailto:mohdwarid4@gmail.com" class="contact-link" target="_blank" rel="noopener noreferrer">mohdwarid4@gmail.com</a>
             </div>
 
           </li>
@@ -89,24 +89,11 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+919911762049" class="contact-link">+91 9911762049</a>
+              <a href="tel:+919911762049" class="contact-link" target="_blank" rel="noopener noreferrer">+91 9911762049</a>
             </div>
 
           </li>
 
-<!--           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Graduation Year</p>
-
-              <time datetime="2023">2022</time>
-            </div>
-
-          </li> -->
 
           <li class="contact-item">
 
@@ -129,19 +116,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.facebook.com/warid.mohd" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.linkedin.com/in/waridrox/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://x.com/waridrox" class="social-link">
+            <a href="https://x.com/waridrox" class="social-link" target="_blank" rel="noopener noreferrer">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/waridrox" class="social-link">
+            <a href="https://www.instagram.com/waridrox" class="social-link" target="_blank" rel="noopener noreferrer">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -171,11 +158,12 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link" data-nav-link>About</button>
           </li>
+          <!--active-->
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>Interests</button>
           </li>
 
           <li class="navbar-item">
@@ -183,7 +171,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Blogs</button>
           </li>
 
           <li class="navbar-item">
@@ -195,39 +183,227 @@
       </nav>
 
 
-
-
-
       <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="interests  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About</h2>
         </header>
 
 
-<!--          -->
-        <section class="about-text">
-            <p>As a Full-Stack Software Engineer, I design and develop end-to-end web applications that deliver seamless user experiences and robust backend functionality. I build responsive, interactive frontends using React.js, Vue.js, and modern JavaScript frameworks, while architecting scalable backend services with Node.js, Django, Flask, and Spring Boot. My expertise spans the complete development lifecycle, from wireframing and prototyping with Figma to database design with PostgreSQL, MongoDB, and Redis, ensuring optimal performance and maintainability across the entire technology stack.</p>
-    
-            <p>As a versatile Full-Stack Developer, I excel at translating complex business requirements into intuitive, production-ready applications through systematic design and development processes. I create detailed control flow diagrams using Lucid Charts to map out system architecture and user workflows, then develop RESTful APIs and microservices that power dynamic user interfaces. My approach includes implementing real-time features using WebSockets and modern state management, optimizing application performance through efficient database queries and caching strategies, and maintaining high code quality standards through comprehensive testing and CI/CD pipelines.</p>
-    
-            <p>With a foundation spanning design thinking, frontend innovation, and backend engineering, I thrive at building complete full-stack solutions that scale—from initial concept sketches and interactive prototypes to deploying containerized services on cloud platforms. My technical versatility combined with strong visual design and system architecture skills enables me to deliver end-to-end software solutions that drive user engagement and business value.</p>
+        <section class="interests-text">
+          <h4 class="hero-title">Hi 👋🏻, I'm Warid</h4>
+          <p class="hero-subtitle">I'm a Full Stack Software Engineer with a background in AI & DevOps Engineering. I currently am working on <strong>open source</strong> MLOps techniques under <strong>Dr. Sergei V. Gleyzer</strong>.</p>
+          <p class="hero-subtitle">Being an open-source software fanatic, I have contributed to several projects, both voluntarily and through funded programs such as Google Summer of Code, Linux Mentorship, and Summer of Bitcoin. You can find these contributions below:</p>
         </section>
-<!--  -->
+      
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
 
-        <!--
-          - service
-        -->
+            <!-- Probabl.ai Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/probabl.png" alt="Probabl.ai" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Probabl.ai</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Aprobabl-ai+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+    
+      
+            <!-- CERN-HSF Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/logo-4-color.png" alt="CERN-HSF" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">CERN-HSF</h3>
+                  </div>
+                  <a href="https://github.com/waridrox/ep_sciencemesh" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+            <!-- bcoin Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/bcoin.png" alt="bcoin" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Bcoin</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Abcoin-org+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Public Lab Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/logo-7-color.png" alt="Public Lab" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Public Lab</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Apubliclab+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- GitLab Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/gitlab.jpg" alt="GitLab" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">GitLab</h3>
+                  </div>
+                  <a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=all&author_username=waridrox" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- GitLab-ui Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/gitlab.jpg" alt="GitLab UI" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">GitLab UI</h3>
+                  </div>
+                  <a href="https://gitlab.com/gitlab-org/gitlab-ui/-/merge_requests?scope=all&state=all&author_username=waridrox" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Moja Global Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/logo-8-color.png" alt="Moja Global" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Moja Global</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Amoja-global+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+
+
+            <!-- Creative Commons Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/cc.png" alt="Creative Commons" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Creative Commons</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Acc-archive+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Appwrite Contributions -->
+            <li class="blog-post-item">
+              <div class="oss-card">
+                <div class="oss-card-content">
+                  <div class="oss-logo">
+                    <img src="./assets/images/appwrite.png" alt="Appwrite" loading="lazy">
+                  </div>
+                  <div class="oss-info">
+                    <h3 class="h3 oss-title">Appwrite</h3>
+                  </div>
+                  <a href="https://github.com/search?q=org%3Aappwrite+author%3Awaridrox+type%3Apr&type=pullrequests" target="_blank" class="oss-contributions-btn">
+                    <ion-icon name="git-pull-request-outline"></ion-icon>
+                    <span>See Contributions</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+
+
+      <article class="interests" data-page="interests">
+
+        <header>
+          <h2 class="h2 article-title">Interests</h2>
+        </header>
 
         <section class="service">
 
           <h3 class="h3 service-title">What I currently vibe with</h3>
 
           <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack and Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Keeping up with the latest trends in full stack development and data engineering, building scalable applications.
+                </p>
+              </div>
+
+            </li>
 
             <li class="service-item">
 
@@ -240,23 +416,7 @@
                 <h4 class="h4 service-item-title">Applied Machine Learning</h4>
 
                 <p class="service-item-text">
-                  Currently working on applied machine learning projects involving particle physics data.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Full Stack and Data Engineering</h4>
-
-                <p class="service-item-text">
-                  Keeping up with the latest trends in data engineering and web development and building scalable applications.
+                  Currently working on applied machine learning projects leveraging full stack engineering.
                 </p>
               </div>
 
@@ -288,7 +448,7 @@
                 <h4 class="h4 service-item-title">Photography</h4>
 
                 <p class="service-item-text">
-                  Besides work, I invest my time capturing nature and life at high-quality pixels.
+                  Besides work, I fly drones to capture life at high-quality pixels.
                 </p>
               </div>
 
@@ -299,46 +459,7 @@
         </section>
 
 
-                <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Warid was hired to create a corporate identity. We were very pleased with the work done. He has a
-                  lot of experienc and is very concerned about the needs of client.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
+        
 
 
         <!--
@@ -352,55 +473,55 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="https://www.upwork.com/">
-                <img src="./assets/images/logo-0-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://probabl.ai/">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.ua.edu/">
+              <a href="https://www.ua.edu/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-2-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://www.nordblock.fi/">
+              <a href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/logo-0-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://probabl.ai/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.nordblock.fi/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-3-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://home.cern/">
+              <a href="https://home.cern/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-4-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://ronianalytics.com/">
+              <a href="https://ronianalytics.com/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-5-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://bcoin.io/">
+              <a href="https://bcoin.io/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-6-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://en.wikipedia.org/wiki/Public_Lab">
+              <a href="https://en.wikipedia.org/wiki/Public_Lab" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-7-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://moja.global/">
+              <a href="https://moja.global/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/images/logo-8-color.png" alt="client logo">
               </a>
             </li>
@@ -411,14 +532,11 @@
       </article>
 
 
-
-
-
       <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+      <!-- <article class="resume" data-page="resume">
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
@@ -440,7 +558,7 @@
 
               <h4 class="h4 timeline-item-title">Delhi Technological University</h4>
 
-<!--               <span>2018 — 2022</span> -->
+               <span>2018 — 2022</span>
 
               <p class="timeline-text">
                 Pursued bachelors in Environmental Engineering with a minors degree in Computer Science Engineering from Delhi Technological University, one of the prestigious institutions in India established in 1941.
@@ -605,7 +723,7 @@
           </ul>
         
         </section>
-      </article>
+      </article> -->
         
 
 
@@ -901,10 +1019,10 @@
     <!--
   - #BLOG
 -->
-<article class="blog" data-page="blog">
+<article class="blog" data-page="blogs">
 
   <header>
-    <h2 class="h2 article-title">Blog</h2>
+    <h2 class="h2 article-title">Blogs</h2>
   </header>
 
   <section class="blog-posts">
@@ -1080,7 +1198,7 @@
 
 
         <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form (Please avoid spam)</h3>
+          <h3 class="h3 form-title">Let's Connect!</h3>
           <!-- add id and data attributes for emailjs -->
           <form
             id="contact-form"
