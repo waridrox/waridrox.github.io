@@ -18,6 +18,18 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
+    - performance optimizations
+  -->
+  <!-- Preload critical above-the-fold image -->
+  <link rel="preload" as="image" href="./assets/images/my-avatar.png">
+  
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+
+  <!--
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1296,10 +1308,10 @@
     - custom js link
   -->
   <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer>
 </script>
 
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js" defer></script>
 
   <!--
     - ionicon link
